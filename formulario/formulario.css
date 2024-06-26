@@ -1,0 +1,58 @@
+.back {
+    margin:0 auto;
+    padding:5px;
+    background-color: rgb(244, 242, 242);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.header {
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px solid rgb(53, 52, 52);
+    padding: 10px;
+}
+.formcard {
+    display: flex;
+    padding: 20px;
+    gap: 15px; 
+}
+.namelastname{
+    display: flex;
+    gap: 15px;
+    padding:20px;
+}
+.citystatepostal {
+    display: flex;
+    gap: 15px;
+    padding:20px;
+}
+fieldset {
+    display: flex
+}
+
+.pago {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(53, 52, 52);
+    padding: 20px;
+    gap: 20px;
+    width: 100%;
+}
+#mensaje {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(53, 52, 52);
+    padding: 20px;
+    gap: 20px;
+    width: 100%;
+}
+.enviar {
+    display: flex;
+    justify-content: right;
+    padding: 20px; 
+}
+
+
+
+
+

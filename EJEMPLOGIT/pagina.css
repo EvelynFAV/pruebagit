@@ -1,0 +1,54 @@
+body, html {
+    margin:0;
+    padding:5px;
+    box-sizing: border-box;
+    height: 100%;
+    background-color: rgb(46, 27, 27);
+    justify-content: center; /*ver si esto es relevante*/
+    align-items: center;  /*ver si esto es relevante*/
+}
+.titulo {
+    box-sizing: border-box;
+    border: 1px solid #a99d9d;
+    padding: 5px;
+    width: 100%;
+    padding: 10px;
+}
+.titulo p {
+    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(186, 194, 201);
+    font-size: 32px;
+}
+.imagenes img {
+    max-width: 80%;
+    height: auto;
+    margin: 0 auto; 
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+.motivos {
+    box-sizing: border-box;
+    border: 1px solid rgb(186, 194, 201);
+    border-radius: 10px;
+    padding: 5px;
+}
+.motivos p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(244, 226, 226);
+    font-size: 18px;
+}
+.motivos img {
+    max-width: 80%;
+    height: auto;
+    margin: 0 auto; 
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}

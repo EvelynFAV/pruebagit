@@ -1,0 +1,55 @@
+/* Establece el margen y el relleno a 0 para todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Asegura que el contenedor principal ocupe toda la altura disponible */
+html, body {
+    height: 100%;
+}
+
+/* Contenedor principal con disposición de columna */
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 150%;
+}
+
+/* Fila para el título */
+.title-row {
+    flex: 1; /* Ocupa una fracción del espacio vertical disponible */
+    padding: 20px; /* Añade espacio interno alrededor del título */
+    background-color: #f0f0f0; /* Color de fondo para diferenciar */
+}
+
+/* Fila para escribir texto */
+.text-row {
+    flex: 3; /* Ocupa una fracción del espacio vertical disponible */
+    padding: 20px; /* Añade espacio interno alrededor del texto */
+    background-color: #e0e0e0; /* Color de fondo para diferenciar */
+}
+
+/* Fila para los cuadros en la parte inferior */
+.bottom-row {
+    display: flex; /* Utiliza Flexbox para organizar los cuadros */
+    flex: 9; /* Ocupa todo el espacio vertical restante */
+    background-color: #ccc; /* Color de fondo para diferenciar */
+}
+
+/* Columna izquierda para los cuadros */
+.left-column, .right-column {
+    flex: 1; /* Ocupa el 50% del ancho disponible */
+    display: flex; /* Utiliza Flexbox para organizar los cuadros en columnas */
+    flex-direction: column; /* Organiza los cuadros en columnas */
+    padding: 10px; /* Añade espacio interno alrededor de los cuadros */
+}
+
+/* Estilo común para los cuadros */
+.box {
+    flex: 1; /* Ocupa todo el espacio disponible en su contenedor */
+    margin-bottom: 10px; /* Margen inferior entre los cuadros */
+    background-color: #9ac9ff; /* Color de fondo para los cuadros */
+    border: 1px solid #333; /* Borde de 1 píxel sólido */
+}

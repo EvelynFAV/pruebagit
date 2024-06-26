@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pokemon</title>
+    <style>
+        .contenedor {
+            display: flex;
+            flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente línea */
+            gap: 10px; /* Espacio entre los elementos */
+            justify-content: space-between;
+            margin: 3px;
+        }
+        .cuadro { 
+            flex: 1 1 calc(25% - 10px); /* Cada elemento ocupará el 25% del contenedor menos el espacio de gap */
+            padding: 20px;
+            box-sizing: border-box; /* Asegura que el padding y el borde se incluyan en el ancho total */
+            text-align: center;
+            border-radius: 10px;
+        }
+        .cuadro img {
+            max-width: 80%;
+            max-height: 80%;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+        .cuadro p {
+            margin-top: 10px;
+            color: white;
+            font-size: 24px;
+            text-align: center;
+            font-weight: bold;
+            text-shadow: 
+        -1px -1px 0 #000,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+        }
+        #pokemon-fuego {
+            background-color: #d8413c;
+        }
+        #pokemon-planta {
+            background-color: green;
+        }
+        #pokemon-agua {
+            background-color: aqua;
+        }
+        #pokemon-electrico {
+            background-color: #f1f100;
+        }
+        #pokemon-veneno {
+            background-color: purple;
+        }
+        #pokemon-normal {
+            background-color: grey
+        }
+        #pokemon-tierra {
+            background-color: brown;
+        }
+        #pokemon-dragon {
+            background-color: #bb8abb;
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="cuadro" id="pokemon-fuego">
+            <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/155.png" alt="Cyndaquil">
+            <p>Cyndaquil</p>
+        </div>
+        <div class="cuadro" id="pokemon-planta">
+            <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/152.png" alt="Chikorita">
+            <p>Chikorita</p>
+        </div>
+        <div class="cuadro" id="pokemon-agua">
+            <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/007.png" alt="Squirtle">
+            <p>Squirtle</p>
+        </div>
+        <div class="cuadro" id="pokemon-electrico">
+            <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/135.png" alt="Jolteon">
+            <p>Jolteon</p>
+        </div>
+        <div class="cuadro" id="pokemon-veneno">
+            <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/109.png" alt="Koffing">
+            <p>Koffing</p>
+        </div>
+        <div class="cuadro" id="pokemon-normal">
+            <img src="https://db.pokemongohub.net/_next/image?url=%2Fimages%2Fofficial%2Ffull%2F133.webp&w=640&q=75" alt="Eevee">
+            <p>Eevee</p>
+        </div>
+        <div class="cuadro" id="pokemon-tierra">
+            <img src="https://static.pokemonpets.com/images/monsters-images-300-300/2104-Shiny-Cubone.webp" alt="Cubone">
+            <p>Cubone</p>
+        </div>
+        <div class="cuadro" id="pokemon-dragon">
+            <img src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/149.png" alt="Dragonite">
+            <p>Dragonite</p>
+        </div>
+    </div>
+</body>
+</html>
